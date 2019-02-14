@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navBar{
+    width: 100%;
+    height: 40px;
+    background: white;
+    padding: 15px 30px ;
+    top: 0;
+    position: fixed;
+}
+
+ul li a{
+ text-decoration: none;
+}
+
+
+.logo img{
+    width: 120px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+
+.navBar ul{
+    list-style-type: none;
+}
+
+.navBar ul li {
+
+    font-weight: bold;
+    font-family: "CalibreSemibold", helvetica, sans-serif;
+    font-size: 13px;
+    color: #333e48;
+}
+
+.login ul li{
+    border: 2px solid #0d97ff;
+    border-radius: 2px;
+    padding: 4% 8%;
+    margin-right: 6px;
+}
+
+.apply{
+    background: #0d97ff;
+}
+
+.apply a{
+    color: white;
+    vertical-align: baseline;
+}
+
+.log a{
+    color: #0d97ff;
+    vertical-align: baseline;
+}
+
+.logo img, .links li, .login li{
+    display: inline-block;
+}
+
+.logo{
+    width:12%;
+}
+
+.links{
+    width:69%;
+}
+
+.login{
+    width:17%;
+}
+
+.login li a {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.links li a{
+    vertical-align: middle;
+    margin-right: 100px;
+    color: #000000;
+}
+
+.logo1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.first{
+    width:100%;
+    height: 84vh;
+    background: url("img/hero-cafe-new.jpg");
+    background-repeat: no-repeat;
+    background-position: center,center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: 70px;
+
+}
+
+
+
+.first .text{
+
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  margin: 0px auto 0px 0px;
+  padding: 40px 30px;
+  vertical-align: middle;
+  width: 40%;
+
+}
+.first .text h1,.first .text p{
+  color: rgba(255,255,255,1);
+  font-size: 48px;
+  line-height: 1.35;
+  font-weight: bolder;
+  font-family: "CalibreSemibold", helvetica, sans-serif;
+
+}
+
+#open{
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+li.apply1{
+  font-weight: bold;
+  font-family: "CalibreSemibold", helvetica, sans-serif;
+  font-size: 13px;
+  margin-top: 5%;
+  border: 2px solid #0d97ff;
+  border-radius: 2px;
+  padding: 4px 6px;
+  list-style-type: none;
+  background: #0d97ff;
+  align-content: center;
+  padding: 2% 4%;
+  display: inline-block;
+}
+
+li.apply1 a{
+  color: #ffffff;
+}
+
+#space{
+  background: #0d97ff;
+  display: block;
+  content: '';
+  height: 5px;
+  width: 40px;
+  margin-top: 2%;
+}
+
+.second{
+    padding: 90px 30px;
+}
+.second h1{
+    font-family: "CalibreSemibold", helvetica, sans-serif;
+    margin-bottom: 20px;
+    width:28%;
+    margin-left: 15%;
+
+}
+
+.second p{
+    font-family: "CalibreSemibold", helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    
+}
+
+.second p span{
+    font-weight: bold;
+}
+
+#space1{
+  background: #0d97ff;
+  display: block;
+  content: '';
+  height: 5px;
+  width: 40px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+
+.second .second-second{
+    width : 28%;
+    margin-left: 15%;
+}
+
+.second .second-img img{
+    float: right;
+    width: 500px;
+    height: inherit;
+    margin-right: 15%;
+}
+
+.third{
+    width: 96%;
+    height: 30vh;
+    background: url("img/2perc-newfooter.jpg") no-repeat;
+    background-position: center,center;
+    background-size: 100% 100%;
+    padding: 180px 30px;
+}
+
+.third .third-first h1{
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+    width: 40%;
+    color: #0d97ff;
+    font-weight: bold;
+    font-family: "CalibreSemibold", helvetica, sans-serif;
+    margin-left: 10%;
+}
+
+.third .third-first p{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 20px 0 35px;
+    width: 40%;
+    font-weight: bold;
+    font-family: "CalibreSemibold", helvetica, sans-serif;
+    color: black;
+    margin-left: 10%;
+}
+
+.third li.apply2 {
+
+  font-weight: bold;
+  font-family: "CalibreSemibold", helvetica, sans-serif;
+  font-size: 13px;
+  border: 2px solid #0d97ff;
+  border-radius: 2px;
+  list-style-type: none;
+  background: #0d97ff;
+  align-content: center;
+  display: inline-block;
+  padding: 0.8% 2%;
+  margin-left: 10%;
+}
+
+.third li a{
+    color: white;
+}
+
+
+.fourth{
+    padding: 80px 40px;
+    min-height: 400px;
+    display: block;
+    background: #fafafa;
+}
+
+
+.fourth-three{
+    display: inline-block;
+    width:100%;
+    margin-top: 70px;
+    margin-left:8%;
+}
+
+.fourth-three .fourth-nav1{
+    width:49%;
+}
+
+.fourth-three .fourth-nav1 .fourth-ul1 li {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.fourth-nav{
+    float: left;
+    width: 15%;
+    margin-left: 8%;
+}
+
+.fourth .fourth-nav1 ul li{
+    list-style-type: none;
+
+}
+
+    
+.fourth-nav ul li{
+    list-style-type: none;
+}
+
+.fourth h5{
+    font-size: 16px;
+    color: rgb(13, 151, 255);
+    font-weight: bolder;
+    font-family: CalibreSemibold, helvetica, sans-serif;
+    margin-bottom: 14px;
+}
+
+.fourth-nav a{
+    color: rgb(13, 151, 255);
+    font-size: 14px;
+    line-height: 2;
+    font-family: CalibreSemibold, helvetica, sans-serif;
+}
+
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.fourth-four{
+    margin-top: 110px;
+    width: 70%;
+    margin-left: 8%;
+}
+
+small{
+    font-size: 12px;
+    font-family: "CalibreReg";
+    line-height: 1.5;
+    color: #817d7f;
+}
+
+.fourth-three-one{
+    margin-left: 50%;
+    margin-top:-2%;
+}
+
+
+
+.fourth-three-input1 {
+    background: #fafafa;
+    border-bottom: 2px solid #0d97ff;
+    padding: 0;
+    line-height: 38px;
+    margin: 0 8px 0 0;
+    color: #0d97ff;
+    max-width: 300px;
+    width: 100%;
+}
+
+.fourth-three-button{
+
+    border-radius: 2px;
+    background: transparent;
+    box-shadow: inset 0 0 0 2px #0d97ff;
+    color: #0d97ff !important;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "CalibreSemibold", helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    max-height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+input{
+    word-spacing: normal;
+    text-rendering: auto;
+    display: inline-block;
+    text-align: start;
+    font: 400 13.3333px Arial;
+    font-family: "CalibreReg", helvetica !important;
+    font-size: 14px;
+    border-style: none;
+}
