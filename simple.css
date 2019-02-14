@@ -381,10 +381,7 @@ small{
 }
 
 input{
-    word-spacing: normal;
-    text-rendering: auto;
     display: inline-block;
-    text-align: start;
     font: 400 13.3333px Arial;
     font-family: "CalibreReg", helvetica !important;
     font-size: 14px;
